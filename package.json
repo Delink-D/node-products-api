@@ -1,0 +1,16 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "Backend application to querry data from sql dtabase, built with nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Delink-D",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "multer": "^1.4.1",
+    "mysql": "^2.16.0"
+  }
+}
