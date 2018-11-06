@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const multer = require('multer');
 const mysql = require('mysql');
+const config = require('./config/config');
 
 const app = express();
 
@@ -25,7 +26,7 @@ app.use(function (req, res, next) {
 
 var catalogueRoutes = require("./routes/routes")(app);
 
-const port = 8000;
+const port = config.port;
 app.listen(port, () => {
   console.log(`We are live on port: ${port}`);
 });
