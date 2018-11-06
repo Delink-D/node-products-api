@@ -1,0 +1,8 @@
+{
+  "database": {
+    "dbname": "products_catalogue",
+    "dbuser": "root",
+    "dbpass": ""
+  },
+  "port": 8000
+}
