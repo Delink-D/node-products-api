@@ -1,3 +1,11 @@
+const bodyParser = require('body-parser');
+const multer = require('multer');
+const mysql = require('mysql');
+
+/**
+ * the function for setting routes of the api
+ * @param app
+ */
 const appRouter = function(app) {
   // base route
   app.get('/', (req, res) => {
@@ -47,4 +55,5 @@ const appRouter = function(app) {
   });
 };
 
+// export the appRouter
 module.exports = appRouter;

@@ -1,7 +1,4 @@
 const express = require('express');
-const bodyParser = require('body-parser');
-const multer = require('multer');
-const mysql = require('mysql');
 const config = require('./config/config');
 
 const app = express();
